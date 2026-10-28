@@ -41,6 +41,36 @@ paths:
       description: Retrieve the information of the user with the matching user ID.
       x-stoplight:
         id: ltvdu03he9rnk
+      requestBody:
+        content:
+          application/pdf:
+            schema:
+              type: object
+              properties:
+                fdgrh:
+                  $ref: 'https://integration.stoplight-dev.com/api/v1/projects/newint/fgef/nodes/models/fgndf.yaml?mid=5291'
+                  x-stoplight:
+                    id: 51s5alqd52beg
+                hbv:
+                  type: string
+                  x-stoplight:
+                    id: ujfudxn53q7il
+          application/json:
+            schema:
+              type: object
+              properties:
+                esdfg:
+                  $ref: 'https://integration.stoplight-dev.com/api/v1/projects/newint/fgef/nodes/models/fgndf.yaml?mid=5291'
+                  x-stoplight:
+                    id: qhmpuqjhugwo3
+                hgbv:
+                  type: string
+                  x-stoplight:
+                    id: xbnnja9dnefjx
+                qwert:
+                  type: string
+                  x-stoplight:
+                    id: q9guq0sb25wkq
     patch:
       summary: Update User Information
       operationId: patch-users-userId
